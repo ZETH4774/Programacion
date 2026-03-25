@@ -11,23 +11,23 @@ int main()
 	SetConsoleOutputCP(CP_UTF8);
 	SetConsoleCP(CP_UTF8);
 	cout<<"Lectura de datos usando scanf\n";
-	cout<<"Dame un valor entero";
+	cout<<"Dame un valor entero ";
 	fflush(stdin);
 	scanf("%d",&entera);
-	cout<<"Dame un valor flotante";
+	cout<<"Dame un valor flotante ";
 	fflush(stdin);
 	scanf("%f",&flotante);
-	cout<<"Dame un valor char";
+	cout<<"Dame un valor char ";
 	fflush(stdin);
 	scanf("%c",&letra);
-	cout<<"Dame una cadena sin espacios";
+	cout<<"Dame una cadena sin espacios ";
 	fflush(stdin);
 	scanf("%s",&palabra);/* sin espacios*/
 	puts("Impresión de los valores\n");
 	cout<<entera<<"\n";
 	cout<<flotante<<"\n";
 	putchar(letra);
-	putchar("\n");//cout<<Letra<<'\n';
+	putchar('\n');//cout<<Letra<<'\n';
 	puts(palabra);//cout<<palabra;
 	system("pause");
 	cout<<"Dame un entero, un flotante, un char y una cadena sin espacios ";
@@ -37,7 +37,7 @@ int main()
 	cout<<entera<<"\n";
 	cout<<flotante<<"\n";
 	putchar(letra);
-	putchar("\n");
+	putchar('\n');
 	puts(palabra);
 	puts("\n");
 	cout<<fixed;//Estableces el formato fijo

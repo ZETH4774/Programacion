@@ -29,8 +29,8 @@ int main(){
     scanf("%f", &f);// cin >> f;
     cout << "Dame un carácter: ";
     fflush(stdin);
-    scanf("%c", &c);// No acepta caracteres especiales
-    cin >> c;// No acepta caracteres especiales
+    scanf("%c",&c);// No acepta caracteres especiales
+    // No acepta caracteres especiales
     // c = getchar();// No acepta caracteres especiales
     printf("Dame una cadena: ");
     fflush(stdin);

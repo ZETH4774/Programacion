@@ -11,14 +11,15 @@ int main()
 	//PI=0; //No se puede modificar una constante
 	cout<<fixed;
 	cout.precision(4);
-	cout<<"Dame el radio del círculo"
+	cout<<"Dame el radio del círculo";
 	cin>>radio;
-	area=PI*radio^2
+	area=PI*radio*radio;
+	circunferencia=2*PI*radio;
 	cout<<"Usando precisión a cuatro decimales con fixed\n";
 	cout<<"Para un círculo de radio "<<radio<<"\n";
 	cout<<"El área es "<<area<<"\n";
 	cout<<"La circunferencia es "<<circunferencia<<"\n";
 	cout<<"Usando precisión a dos decimales con printf\n";
 	printf("Para un círculo de radio %5.2f \n",radio);
-	printf("")	
+	printf("");
 }
